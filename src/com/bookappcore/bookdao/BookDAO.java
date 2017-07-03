@@ -9,7 +9,7 @@ import com.bookappcore.book.Book;
 import com.bookappcore.bookutil.BookConnectionUtil;
 
 public class BookDAO {
-
+ 
 	public void AddBook(Book book) throws Exception {
 		Connection connection = BookConnectionUtil.getConnection();
 		PreparedStatement pst = connection.prepareStatement("insert into books (name,price) values (?,?)");

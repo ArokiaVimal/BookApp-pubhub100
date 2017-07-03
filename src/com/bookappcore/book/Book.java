@@ -1,7 +1,7 @@
 package com.bookappcore.book;
 
 public class Book {
-
+ 
 	private int bookid;
 	private String Name;
 	private double price;

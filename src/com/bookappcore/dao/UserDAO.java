@@ -6,7 +6,7 @@ import java.sql.ResultSet;
 import com.bookappcore.user.User;
 import com.bookappcore.util.ConnectionUtil;
 
-public class UserDAO {
+public class UserDAO { 
 
 	public boolean register(User user) throws Exception {
 		Connection connection = ConnectionUtil.getConnection();
