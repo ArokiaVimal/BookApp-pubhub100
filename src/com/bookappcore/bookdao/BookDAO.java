@@ -17,7 +17,7 @@ public class BookDAO {
 		pst.setDouble(2, book.getPrice());
 		pst.executeUpdate();
 
-	}
+	} 
 
 	public boolean DeleteBook(Book book) throws Exception {
 		Connection connection = BookConnectionUtil.getConnection();
