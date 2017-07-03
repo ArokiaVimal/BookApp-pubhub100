@@ -8,5 +8,5 @@ public class BookConnectionUtil {
 		Class.forName("com.mysql.jdbc.Driver");
 		Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/book_app","root","4565");
 		return con;
-	} 
+	}  
 }
